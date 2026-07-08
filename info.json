@@ -1,12 +1,19 @@
 {
-  "name": "###NAME###",
-  "title": "###TITLE###",
-  "description": "###DESCRIPTION###",
+  "name": "frozen-goodies-lignumis",
+  "title": "Frozen Goodies for Lignumis",
+  "description": "Adds frozen goodies support to Lignumis.",
   "author": "QuingKhaos",
   "homepage": "",
   "version": "1.0.0",
   "factorio_version": "2.0",
   "dependencies": [
-    "base >= 2.0.0"
+    "base >= 2.0.77",
+
+    "khaoslib >= 1.4.1",
+
+    "frozen-goodies >= 0.0.1",
+    "frozen-goodies-base-assets >= 1.0.0",
+
+    "lignumis >= 1.10.0"
   ]
 }
