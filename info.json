@@ -1,19 +1,16 @@
 {
   "name": "frozen-goodies-lignumis",
   "title": "Frozen Goodies for Lignumis",
-  "description": "Adds frozen goodies support to Lignumis.",
+  "description": "[DEPRECATED] Functionality migrated to Frozen Goodies and More.",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "factorio_version": "2.0",
   "dependencies": [
     "base >= 2.0.77",
+    "space-age >= 2.0.77",
 
-    "khaoslib >= 1.4.1",
-
-    "frozen-goodies >= 0.0.1",
-    "frozen-goodies-base-assets >= 1.0.0",
-
-    "lignumis >= 1.10.0"
-  ]
+    "frozen-goodies-and-more >= 1.0.0"
+  ],
+  "spoiling_required": true
 }
